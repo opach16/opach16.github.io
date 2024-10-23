@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://0bfffe36-f8d0-411f-b4a2-0d8cf8bf8727-00-q47pr8jpy7zp.riker.replit.dev//v1/tasks';
+  var apiRoot = 'https://0bfffe36-f8d0-411f-b4a2-0d8cf8bf8727-00-q47pr8jpy7zp.riker.replit.dev/v1/tasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
