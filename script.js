@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   const apiRoot = 'https://0bfffe36-f8d0-411f-b4a2-0d8cf8bf8727-00-q47pr8jpy7zp.riker.replit.dev/v1/tasks';
-  const trelloApiRoot = 'http://localhost:8080/v1/trello';
+  const trelloApiRoot = 'https://0bfffe36-f8d0-411f-b4a2-0d8cf8bf8727-00-q47pr8jpy7zp.riker.replit.dev/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
